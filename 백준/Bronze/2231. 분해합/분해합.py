@@ -2,12 +2,6 @@ N = int(input())
 
 M_list = []
 for M in range(1, N):
-  if len(str(M)) == 1:
-    if N == 2*M:
-      M_list.append(M)
-    else:
-      pass
-  else:
     n_list = [M]
     for i in range(0, len(str(M))):
       n_list.append(int(str(M)[i]))
