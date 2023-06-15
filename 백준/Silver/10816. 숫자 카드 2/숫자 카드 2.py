@@ -9,5 +9,5 @@ m = int(input())
 cards = input().split()
 
 counter = Counter(nums)
-for i in range(m):
-  print(counter[cards[i]], end=' ')
+for card in cards:
+  print(counter[card], end=' ')
