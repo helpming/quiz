@@ -1,3 +1,8 @@
+import sys
+
+input = sys.stdin.readline
+print = sys.stdout.write
+
 n = int(input())
 
 stack = []
@@ -26,4 +31,4 @@ for i in range(n):
             results.append(stack[-1])
             
 for result in results:
-    print(result)
+    print(str(result)+'\n')
